@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="products.html">products</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="store.html">Store</a></li>
+        <li><a href="sign.html">Sign up</a></li>
+        <li id="ter"><input id="colorpicker" onclick="colorchange()" type="color"></li>
+        <li id="ter" <img width="50px" src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png"></li>
+      </ul>
+    <button onclick="darkMode()">Dark Mode</button>
+    <button onclick="lightmode()">light mode</button>
+    <center> <h1>
+        Amazon
+    
+    </center> </h1>
+    <h1>
+    About Amazon.
+    </h1>
+<p> <h1>
+</br>
+    Who we are?
+</br>
+</br>
+Amazon is guided by four principles: customer obsession rather than competitor focus, passion for invention, commitment to operational excellence, and long-term thinking. Amazon strives to be Earth’s most customer-centric company, Earth’s best employer, and Earth’s safest place to work. Customer reviews, 1-Click shopping, personalized recommendations, Prime, Fulfillment by Amazon, AWS, Kindle Direct Publishing, Kindle, Career Choice, Fire tablets, Fire TV, Amazon Echo, Alexa, Just Walk Out technology, Amazon Studios, and The Climate Pledge are some of the things pioneered by Amazon.
+</br>
+</br>
+What we do?
+</br>
+</br>
+Although our business has evolved over the years, one constant is customers’ desire for lower prices, better selection, and convenient services. Today, Amazon shoppers can find what they’re looking for online and in person. From delivering fresh produce to their doorstep to creating and distributing movies, music, and more, we are always finding new ways to delight our customers.
+</p> </h1>
+    <script>
+    
+    function colorchange(){
+        var newcolor = document.getElementById("colorpicker").value;
+        document.body.style.background = newcolor;
+    }
+
+    function darkMode() {
+        document.body.style.background = "black";
+        document.body.style.color = "white";
+    }
+        function lightmode() {
+        document.body.style.background = "white";
+        document.body.style.color = "black";
+    }
+    </script>
+  
+
+
+
+
+</body>
+</html>
